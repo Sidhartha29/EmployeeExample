@@ -23,9 +23,6 @@ ValidSalary.java + SalaryValidator.java: Custom salary validation</br>
 #⚛️ Frontend (React + TypeScript + Vite)</br>
 
 #✅ Folder Structure</br>
-pgsql</br>
-Copy</br>
-Edit</br>
 src/</br>
 ├── api/</br>
 │   └── api.ts               // Axios API methods</br>
