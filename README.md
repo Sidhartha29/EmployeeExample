@@ -1,9 +1,9 @@
 # EmployeeExample
 
-#✅ Project Overview: Employee Management System
-A full-stack application built using:
-Backend: Spring Boot (port 8085)
-Frontend: React + TypeScript + Vite (port 5175)
+#✅ Project Overview: Employee Management System</br>
+A full-stack application built using:</br>
+Backend: Spring Boot (port 8085)</br>
+Frontend: React + TypeScript + Vite (port 5175)</br>
 
 #🔁 Backend (Spring Boot)
 🌐 REST API Endpoints (/api/employees)
