@@ -6,35 +6,36 @@ Backend: Spring Boot (port 8085)</br>
 Frontend: React + TypeScript + Vite (port 5175)</br>
 
 #🔁 Backend (Spring Boot)
-🌐 REST API Endpoints (/api/employees)
-GET /api/employees – Get all employees
-POST /api/employees – Create a new employee
-GET /api/employees/{id} – Get employee by ID
-PUT /api/employees/{id} – Update employee
-DELETE /api/employees/{id} – Delete employee
+🌐 REST API Endpoints (/api/employees)</br>
+GET /api/employees – Get all employees</br>
+POST /api/employees – Create a new employee</br>
+GET /api/employees/{id} – Get employee by ID</br>
+PUT /api/employees/{id} – Update employee</br>
+DELETE /api/employees/{id} – Delete employee</br>
 
-#✅ Core Backend Files
-EmployeeController.java: Defines the REST endpoints
-EmployeeService.java: Contains business logic
-EmployeeRepository.java: JPA repository interface
-Employee.java: Model with fields id, name, salary
-ValidSalary.java + SalaryValidator.java: Custom salary validation
+#✅ Core Backend Files</br>
+EmployeeController.java: Defines the REST endpoints</br>
+EmployeeService.java: Contains business logic</br>
+EmployeeRepository.java: JPA repository interface</br>
+Employee.java: Model with fields id, name, salary</br>
+ValidSalary.java + SalaryValidator.java: Custom salary validation</br>
 
-#⚛️ Frontend (React + TypeScript + Vite)
+#⚛️ Frontend (React + TypeScript + Vite)</br>
 
-#✅ Folder Structure
-pgsql
-Copy
-Edit
-src/
-├── api/
-│   └── api.ts               // Axios API methods
-├── components/
-│   ├── EmployeeForm.tsx     // Form to create/update employee
-│   ├── EmployeesTable.tsx   // Table to display employee list
-│   ├── SalaryForm.tsx       // Optional: Custom salary input
-│   └── EmployeePanel.tsx    // Optional: Wrapper component
-├── types/
-│   └── models.ts            // Employee TypeScript interface
+#✅ Folder Structure</br>
+pgsql</br>
+Copy</br>
+Edit</br>
+src/</br>
+├── api/</br>
+│   └── api.ts               // Axios API methods</br>
+├── components/</br>
+│   ├── EmployeeForm.tsx     // Form to create/update employee</br>
+│   ├── EmployeesTable.tsx   // Table to display employee list</br>
+│   ├── SalaryForm.tsx       // Optional: Custom salary input</br>
+│   └── EmployeePanel.tsx    // Optional: Wrapper component</br>
+├── types/</br>
+│   └── models.ts            // Employee TypeScript interface</br>
+</br>
 
 
